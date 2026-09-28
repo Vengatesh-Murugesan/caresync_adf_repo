@@ -8,7 +8,7 @@
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
-					"retry": 2,
+					"retry": 4,
 					"retryIntervalInSeconds": 30,
 					"secureOutput": false,
 					"secureInput": false
@@ -24,7 +24,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "DS_AzureSqlTable",
 						"type": "DatasetReference"
 					}
 				}
